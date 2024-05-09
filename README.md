@@ -24,8 +24,7 @@ Whatever I probs won't get here for a while
 
 Concepts
 
-These are the two possible concepts I'm working on but hey one may not work and the oter one's complicated...
-ffffuuuuccckkkkk
+These are the two possible concepts I'm working on but hey one may not work and the other one's complicated...  ffffuuuuccckkkkk
 
 anyway
 here you go ig?
