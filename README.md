@@ -19,3 +19,15 @@ planning to attactc a bulky ass 3d printed thingamabobber to the outside of my g
 V2: 
 a more streamline mount upgrading to an arduino nano nd making the screen more customizable. new HUD features and possibly a small interactable camera.
 Whatever I probs won't get here for a while
+
+
+
+Concepts
+
+These are the two possible concepts I'm working on but hey one may not work and the oter one's complicated...
+ffffuuuuccckkkkk
+
+anyway
+here you go ig?
+
+![projector-concepts](https://github.com/GrantHS-Programming/ap-final-project-Fishhkabob/assets/116756615/3ff9f8ad-c634-490e-99e0-94e542f137f6)
