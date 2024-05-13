@@ -30,3 +30,60 @@ anyway
 here you go ig?
 
 ![projector-concepts](https://github.com/GrantHS-Programming/ap-final-project-Fishhkabob/assets/116756615/3ff9f8ad-c634-490e-99e0-94e542f137f6)
+
+Arduino controller design with a simulator :)
+
+![Screenshot 2024-05-13 at 11 23 08 AM](https://github.com/GrantHS-Programming/ap-final-project-Fishhkabob/assets/116756615/d064968e-764a-4ee1-8b80-4809ee8dcab4)
+
+The code I ran today was to attempt to get a working timer displaed live through seconds, minutes, and hours...
+it kinda failed but I'm gonna dump it here anyway
+
+
+#include <LiquidCrystal.h>
+
+int totalseconds = 0;
+
+LiquidCrystal lcd_1(12, 11, 5, 4, 3, 2);
+
+
+void setup()
+{
+  lcd_1.begin(16, 2); // Set up the number of columns and rows on the LCD.
+
+  // Print a message to the LCD.
+  lcd_1.print("time: 12:00");
+}
+
+void loop()
+{
+int totalminutes = totalseconds/60;
+int minutes = totalminutes % 60;
+  int seconds = totalseconds % 60;
+  lcd_1.setCursor(10, 0);
+  
+  lcd_1.print(minutes);
+  lcd_1.print(seconds);
+
+  delay(1000);
+  totalseconds += 1;
+  
+  template<typename... Args>
+std::string dyna_print(std::string_view rt_fmt_str, Args&&... args)
+{
+    return std::vformat(rt_fmt_str, std::make_format_args(args...));
+}
+ 
+int main()
+{
+    std::cout << std::format("Hello {}!\n", "world");
+ 
+    std::string fmt;
+    for (int i{}; i != 3; ++i)
+    {
+        fmt += "{} "; // constructs the formatting string
+        std::cout << fmt << " : ";
+        std::cout << dyna_print(fmt, "alpha", 'Z', 3.14, "unused");
+        std::cout << '\n';
+    }
+}
+}
