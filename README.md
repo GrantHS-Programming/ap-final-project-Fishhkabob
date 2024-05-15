@@ -35,4 +35,5 @@ Arduino controller design with a simulator :)
 
 ![Screenshot 2024-05-13 at 11 23 08 AM](https://github.com/GrantHS-Programming/ap-final-project-Fishhkabob/assets/116756615/d064968e-764a-4ee1-8b80-4809ee8dcab4)
 
-
+update: date and time library has now been installed and the stopwatch function now works, hopefully next class I bring in the physical hardware.
+I know I didn't add much to git but I got a lot of work done
